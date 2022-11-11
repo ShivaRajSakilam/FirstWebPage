@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Know Me Here</title>
+    <link rel="stylesheet" href="/KnowMeHere/css/stylek.css">
+    <link rel="shortcut icon" href="/KnowMeHere/img/logo.ico" type="image/x-icon">
+    <h1 id="kmh"><b>Know Me Here</b></h1>
+    <p id="xyz">I am Shiva Raj</p>
+    <hr /><br>
+
+</head>
+
+<body>
+    <script type="text/script" src="/KnowMeHere/js/script.js"></script>
+    <!-- using general, lists and description tags -->
+    <div class="b">
+        <h2><b>Personal Information</b></h2>
+        <ul type="square">
+            <li id="ssr">Name: SAKILAM SHIVA RAJ</li>
+            <li>DOB: 22nd september 2002</li>
+            <li>Place of Residence: Hyderabad</li>
+            <li>Blog:<a href="http://shivaraj741.blogspot.com" target="_blank">Learning is Earning</a></li>
+        </ul>
+    </div>
+    <br>
+    <div class="a">
+        <h4><b>Interests:</b></h4>
+        <dl>
+            <ul type="circle">
+                <li class="x">
+                    <dt>Coding</dt>
+                </li>
+                <dd>-Web Developer, Andriod Developer</dd>
+                <li class="x">
+                    <dt>Working Out in GYM</dt>
+                </li>
+                <dd>-I lost around 8 kgs in recent years and now aiming to build 6-packs</dd>
+                <li class="x">
+                    <dt>Reading Books, so far read more than 30 self-help books</dt>
+                </li>
+                <dd>-must read from myside: rich dad poor dad, the monk who sold his ferrari, atomic habits</dd>
+            </ul>
+        </dl>
+    </div>
+    <hr />
+
+    <h2>Academic Performance in Engineering</h2>
+    <!--tables-->
+    <table border="1" cellspacing="0">
+        <tr>
+            <th>Semester</th>
+            <th>GPA</th>
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>9.23</td>
+        </tr>
+
+        <tr>
+            <td>II</td>
+            <td>8.95</td>
+        </tr>
+        <tr>
+            <td rowspan="2">III</td>
+            <td>8.75(Before RV)</td>
+        </tr>
+        <tr>
+            <!-- <td>III</td> -->
+            <td>8.88(After RV)</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Average GPA is 9.02</td>
+        </tr>
+
+
+    </table>
+    <br>
+    <hr>
+
+    <!-- forms -->
+    <form method="post" action="ResponsesEntry.php">
+        <h2><b>Your Opinion on Shiva Raj</b></h2>
+        Your Name: <input type="text" name="Your_Name">
+        <p><b>Choose from the options below about ME</b></p>
+        <div>
+            <input id="1" type="radio" name="character" value="Smart">
+            <label for="1" class="c">Smart</label>
+            <input id="2" type="radio" name="character" value="innocent">
+            <label for="2" class="c">Innocent</label>
+            <input id="3" type="radio" name="character" value="Crazy">
+            <label for="3" class="c">Crazy</label>
+            <input id="4" type="radio" name="character" value="Studious">
+            <label for="4" class="c">Studious</label> <br>
+        </div>
+        <p><b>Select the kind of relationship you want with me from the dropdown</b></p>
+        <select name="relationship">
+            <option value="Friend">Friend</option>
+            <option value="Enemy">Enemy</option>
+        </select>
+
+        <p><b>Let me know in your own words about me and How can I improve</b></p>
+        <textarea name="opinion_in_words" cols="60" rows="6"></textarea><br>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <h3 id="tq">Thanking You,Yours Shiva Raj</h3>
+    <img id="pic" src="/KnowMeHere/img/chotu smiley image.jpeg" width="170" height="200"
+        style="height: 100; width: 85;">
+        <p id="pict">Always Smile Eventhough Scrolling the page</p>
+
+</body>
+
+
+
+</html>

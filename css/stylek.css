@@ -1,0 +1,103 @@
+/* the below code styles all the elements of h1,h2,h3 from the html code */
+@font-face {
+   font-family: myFirstFont;
+   src: url(/KnowMeHere/Langar-Regular.ttf);
+ }
+ 
+ /* div {
+   font-family: myFirstFont;
+ } */
+
+ #pic{
+  position: fixed;
+  top: 3cm;
+  right: 3cm;
+ }
+ #pict{
+  position: fixed;
+  top: 8cm;
+  right: 1cm;
+ }
+ .a{
+   border: solid 2px crimson;
+   font-weight:bold;
+ }
+ .b{
+   border: solid 3px blue;
+ }
+ .c{
+   display: inline-block;
+   border: solid 2px black;
+   width: 4cm;
+
+ }
+h1{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    font-family: myFirstFont;
+    text-align: center;
+    border: solid red 8px;
+    padding: 10px 5px;
+    margin: 10px;
+    /* width: auto; */
+    box-sizing: content-box;
+    /* display: inline; */
+    /* z-index: 2; */
+    /* position: relative; */
+
+}
+h2{
+    color: brown;
+    background-color:antiquewhite;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h3{
+    color: blue;
+    background-color: aquamarine;
+}
+/* p{
+    color: black;
+    background-color: aqua;
+} */
+
+/* selectors: are used for styling particular elements
+1.id(#abc)
+2.class(.xyz)
+-->p.xyz
+3.grouping(p,h1,h2)
+4.child parent(p>a)
+5.attribute(input[type="text"]
+6.dicendent ancestor(p a)
+ */
+ #ssr{
+    color:chocolate;
+    
+ }
+ .x{
+    color: darkgreen;
+    font-style: italic;
+    margin: 10px;
+    
+ }
+ ul dd{
+    color:darkmagenta;
+ }
+ tr>th{
+    color: deeppink;
+ }
+ input[type="text"]{
+    color:olive;
+ }
+
+ p{
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
+ #xyz{
+   text-align: center;
+   /* display: inline;
+   z-index: 3;
+   /* position:relative */ 
+ }
+ #tq{
+  text-align: center;
+ }
