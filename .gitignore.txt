@@ -1,1 +1,1 @@
-ignored/
+ignored_by_git/
