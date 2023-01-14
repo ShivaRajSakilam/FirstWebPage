@@ -20,12 +20,12 @@
     $result=mysqli_query($conn,$sql);
     if ($result) {
         echo "Responses from viewers"."<br>";
-        while ($row = $result->fetch_assoc()) {
-            echo $Your_Name = $row["Your_Name"]."-->";
-            echo $character = $row["attitude"]." +";
-            echo $relationship = $row["relationship"]." +";
-            echo $opinion_in_words = $row["opinion"];
-            echo "<br";
+        while($row = $result->fetch_assoc()) {
+            echo $row["Your_Name"]."-->"
+            .$row["attitude"]." +"
+            .$row["relationship"]." +"
+            .$row["opinion"]
+            ."<br>";
         }
     }else{
         echo "Fetching Failed". mysqli_error($conn);
